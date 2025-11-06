@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="바이브 코딩 - 코딩의 즐거움을 느끼는 실전 강의">
+    <title>바이브 코딩 | Vibe Coding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-icon">{ }</span>
+                    <span class="logo-text">바이브 코딩</span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">홈</a></li>
+                    <li><a href="#about" class="nav-link">바이브 코딩이란?</a></li>
+                    <li><a href="#curriculum" class="nav-link">커리큘럼</a></li>
+                    <li><a href="#features" class="nav-link">강의 특징</a></li>
+                    <li><a href="#register" class="nav-link">수강신청</a></li>
+                </ul>
+                <a href="https://forms.gle/Ddj742DqPZ5Eb8j79" target="_blank" class="cta-button">지금 신청하기</a>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="code-animation">
+                <div class="code-line" style="--delay: 0s;">const vibe = new CodingExperience();</div>
+                <div class="code-line" style="--delay: 0.5s;">vibe.enjoy();</div>
+                <div class="code-line" style="--delay: 1s;">console.log('Feel the Vibe!');</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">코딩의 즐거움을 느끼다</span>
+                    <span class="title-line accent">바이브 코딩</span>
+                </h1>
+                <p class="hero-subtitle">
+                    단순한 코딩이 아닌, 느낌과 감각으로 배우는<br>
+                    새로운 프로그래밍 학습 경험을 제공합니다
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://forms.gle/Ddj742DqPZ5Eb8j79" target="_blank" class="btn btn-primary">수강 신청하기</a>
+                    <a href="#about" class="btn btn-secondary">더 알아보기</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="1000">0</span>
+                        <span class="stat-label">수강생</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-label">프로젝트</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="98">0</span>
+                        <span class="stat-label">만족도 %</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 바이브 코딩 소개 섹션 -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">바이브 코딩이란?</h2>
+                <p class="section-subtitle">Vibe Coding - 느낌으로 배우는 코딩</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="code-snippet">
+                            <div class="snippet-line">// 바이브를 느껴보세요</div>
+                            <div class="snippet-line">function learnWithVibe() {</div>
+                            <div class="snippet-line">  return passion + practice;</div>
+                            <div class="snippet-line">}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-title">코딩, 이제는 즐겁게!</h3>
+                    <p class="about-description">
+                        바이브 코딩은 단순히 문법을 외우는 것이 아닌, 코딩의 본질과 즐거움을
+                        느끼며 배우는 새로운 학습 방법론입니다. 실전 프로젝트를 통해 자연스럽게
+                        코딩 감각을 익히고, 개발자로서의 사고방식을 체득할 수 있습니다.
+                    </p>
+                    <ul class="about-list">
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>이론보다 실전, 암기보다 이해</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>재미있는 프로젝트 중심 학습</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>개발자의 사고방식 체득</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>실무에 바로 적용 가능한 스킬</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 커리큘럼 섹션 -->
+    <section class="curriculum" id="curriculum">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">강의 커리큘럼</h2>
+                <p class="section-subtitle">체계적이고 실전적인 학습 과정</p>
+            </div>
+            <div class="curriculum-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">기초 다지기</h3>
+                        <p class="timeline-description">
+                            HTML, CSS, JavaScript의 기본 개념을 실습을 통해
+                            자연스럽게 익힙니다. 문법보다는 개념과 원리에 집중합니다.
+                        </p>
+                        <ul class="timeline-topics">
+                            <li>웹의 기본 구조 이해하기</li>
+                            <li>JavaScript 핵심 개념</li>
+                            <li>반응형 웹 디자인 기초</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">실전 프로젝트</h3>
+                        <p class="timeline-description">
+                            실제로 동작하는 웹 애플리케이션을 만들어보며
+                            개발 프로세스를 경험합니다.
+                        </p>
+                        <ul class="timeline-topics">
+                            <li>투두 리스트 앱 제작</li>
+                            <li>날씨 정보 앱 만들기</li>
+                            <li>포트폴리오 웹사이트 구축</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">프레임워크 마스터</h3>
+                        <p class="timeline-description">
+                            React, Vue 등 현대적인 프레임워크를 활용하여
+                            더욱 효율적인 개발 방법을 배웁니다.
+                        </p>
+                        <ul class="timeline-topics">
+                            <li>React 기초부터 심화까지</li>
+                            <li>상태 관리의 모든 것</li>
+                            <li>실무 프로젝트 개발</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">포트폴리오 완성</h3>
+                        <p class="timeline-description">
+                            나만의 프로젝트를 완성하고 포트폴리오를 구축하여
+                            취업이나 이직에 활용할 수 있습니다.
+                        </p>
+                        <ul class="timeline-topics">
+                            <li>개인 프로젝트 기획 및 개발</li>
+                            <li>배포 및 운영 경험</li>
+                            <li>코드 리뷰 및 피드백</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 강의 특징 섹션 -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">바이브 코딩의 특별함</h2>
+                <p class="section-subtitle">다른 강의와는 차별화된 학습 경험</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3 class="feature-title">바이브 중심 학습</h3>
+                    <p class="feature-description">
+                        코딩의 느낌과 감각을 중요시합니다.
+                        암기가 아닌 이해와 직관으로 배웁니다.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3 class="feature-title">실전 프로젝트</h3>
+                    <p class="feature-description">
+                        실제로 동작하는 프로젝트를 만들며
+                        실무 능력을 키웁니다.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">최신 기술 스택</h3>
+                    <p class="feature-description">
+                        React, Vue, Node.js 등
+                        현업에서 사용하는 최신 기술을 다룹니다.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍🏫</div>
+                    <h3 class="feature-title">1:1 피드백</h3>
+                    <p class="feature-description">
+                        코드 리뷰와 개인별 맞춤 피드백으로
+                        빠르게 성장할 수 있습니다.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3 class="feature-title">커뮤니티</h3>
+                    <p class="feature-description">
+                        함께 공부하는 동료들과
+                        지속적으로 소통하며 성장합니다.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">평생 수강</h3>
+                    <p class="feature-description">
+                        한 번 등록하면 평생 수강 가능하며
+                        업데이트된 콘텐츠도 자유롭게 이용합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 수강생 후기 섹션 -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">수강생 후기</h2>
+                <p class="section-subtitle">바이브 코딩을 경험한 분들의 생생한 이야기</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "단순히 코딩 문법을 배우는 게 아니라, 개발자의 사고방식을
+                        배울 수 있었어요. 정말 재미있게 공부했습니다!"
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>김코딩</strong>
+                        <span>취업 준비생</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "실전 프로젝트 중심이라 배운 내용을 바로 활용할 수 있었고,
+                        포트폴리오도 자연스럽게 완성되었어요."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>이개발</strong>
+                        <span>웹 개발자</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "다른 강의들과 달리 코딩의 본질을 이해하게 되었습니다.
+                        이제는 스스로 문제를 해결할 수 있어요!"
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>박프로</strong>
+                        <span>프리랜서</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 수강신청 섹션 -->
+    <section class="register" id="register">
+        <div class="container">
+            <div class="register-content">
+                <h2 class="register-title">바이브 코딩과 함께 시작하세요</h2>
+                <p class="register-description">
+                    지금 수강 신청하고 코딩의 즐거움을 경험해보세요.<br>
+                    새로운 개발자로서의 여정이 시작됩니다.
+                </p>
+                <div class="register-benefits">
+                    <div class="benefit-item">
+                        <span class="benefit-icon">✓</span>
+                        <span>평생 수강 가능</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">✓</span>
+                        <span>1:1 코드 리뷰</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">✓</span>
+                        <span>커뮤니티 멤버십</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">✓</span>
+                        <span>프로젝트 포트폴리오</span>
+                    </div>
+                </div>
+                <a href="https://forms.gle/Ddj742DqPZ5Eb8j79" target="_blank" class="btn btn-primary btn-large">
+                    지금 바로 수강신청하기
+                </a>
+                <p class="register-note">
+                    수강 신청 관련 문의사항이 있으시면 언제든 연락주세요
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-icon">{ }</span>
+                        <span class="logo-text">바이브 코딩</span>
+                    </div>
+                    <p class="footer-description">
+                        코딩의 즐거움을 느끼며 배우는<br>
+                        새로운 학습 경험
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">강의</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">바이브 코딩이란?</a></li>
+                        <li><a href="#curriculum">커리큘럼</a></li>
+                        <li><a href="#features">강의 특징</a></li>
+                        <li><a href="#register">수강신청</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">지원</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://forms.gle/Ddj742DqPZ5Eb8j79" target="_blank">문의하기</a></li>
+                        <li><a href="#testimonials">수강생 후기</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">소셜</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 바이브 코딩. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
